@@ -1,0 +1,25 @@
+React day 2 Daily Revision
+
+1."Vite la public folder index.html la iruka div id="root" ku React main.jsx mooliyama connect pannum. Athu la mattum thaan namma functional components (App, Home, Navbar…) ellam render aagum."
+
+
+
+2.src la iruka ReactDOM.createRoot() function thaan 
+React-oda Virtual DOM rendering process-a start pannum.
+
+Virtual DOM-na, browser-la already iruka Real DOM structure-oda 
+oru lightweight copy React memory-la create pannum.
+
+Enga update nadakutho, antha specific DOM part mattum thaan 
+re-render aagum. Whole page re-render aagathu. 
+Adhanala React fast & efficient-aa work pannum.
+
+ReactDOM.createRoot → Virtual DOM use pannuradhu
+
+ReactDOM.createRoot() nu solradhu React 18+ introduced method.
+Idhu React UI-a mount panna (attach panna) and Virtual DOM engine-a initialize panna use aagum.
+
+
+
+
+3.
